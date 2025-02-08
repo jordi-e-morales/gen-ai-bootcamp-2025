@@ -10,6 +10,8 @@ An enhancement of the existing Lang Portal is required to provide lang students 
 
 Due to the recent developments of NLP and particularly Generative AI, the hypothesis is that the business requirement can integrate AI-powered systems that provides the capabilities to easily integrate into the system.
 
+In this case the language will be FRENCH.
+
 #### Functional Requirements
 
 The system must be capable of:
