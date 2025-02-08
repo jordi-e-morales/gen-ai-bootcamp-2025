@@ -1,0 +1,62 @@
+<example>
+    <user:input>
+        Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>6</score>
+    <score_reasons>
+    - BAD: the beginner sentence is uncessary, should jsut start showing the vocabulary table
+    - BAD: The sentence structure says too much we really want something that is conceptual like this: [Subject] [Verb] [Location], [aux verb]-[subject] [verb] [object] [location]?
+    </score_reasons>
+    <assistant:output>  
+        Bonjour ! Let's work on translating that sentence into French. Here's a table of vocabulary to get you started:
+        | English 		| French 	|
+        | Bears			| ours 		|
+        | are			| (verb être) |
+        | at			| à |
+        | the door		| la porte | 
+        | did 			| (verb faire) |
+        | you			| 	vous | 
+        | leave			| 	laisser |
+        | the garbage	| les ordures | 
+        | out			|dehors |
+        Now, think about the sentence structure. You could start with "Les ours..." and then use the verb "être" to describe their location. For the second part of the sentence, you might use the verb "laisser" in a question form.
+        Here's a possible sentence structure:
+        Les ours + verb être + location, + question with verb laisser...
+        See if you can fill in the blanks!
+    </assistant:output>
+</example>
+<example>
+    <user:input>
+        Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>10/score>
+    <score_reasons>
+    - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediatly
+    - GOOD: Shows conceptual sentence strucutre
+    - GOOD: Clues don't give directly away any of the tense of conjugations
+    - GOOD: Provides Clauses indications and word order warnings
+    </score_reasons>
+    <assistant:output>
+    Cheatsheet:
+        | English 		| French 	|
+        | Bears			| ours 		|
+        | are			| (verb être) |
+        | at			| à |
+        | the door		| la porte | 
+        | did 			| (verb faire) |
+        | you			| 	vous | 
+        | leave			| 	laisser |
+        | the garbage	| les ordures | 
+        | out			|dehors |
+
+    Sentence Structure
+    [Subject: Bears] [Verb: Être] [Location: À/Devant la porte], [Question: Did you...?] [Verb: Laisser] [Object: Les ordures/Poubelle] [Location: Dehors]?
+    Clues
+    Use the verb "être" in the present tense to describe the location of the bears.
+    For the question, use the verb "laisser" in the correct tense and conjugation.
+    Pay attention to the word order in French, which might be different from English.
+    Consider using a subordinate clause to connect the two parts of the sentence.
+    </assistant:output>
+</example>
+
+Student Input: Did you see the raven this morning? They were looking at our garden.
